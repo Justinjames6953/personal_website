@@ -17,7 +17,7 @@ body a{
 	-ms-transition:0.5s all;
 }
 .banner{
-	background: url(../images/my\ pic12\ \(3\).jpg) no-repeat;
+	background: url(../images/my\ pic1\ \(3\).jpg) no-repeat;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -373,7 +373,7 @@ a.more:hover{
 	background: #1C3B5A;
 }
 .about-me{
-	background: url(../images/banner1.jpg) no-repeat center fixed;
+	background: url(../images/myphoto.jpg) no-repeat center fixed;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -413,7 +413,7 @@ i.acent {
 i.social{
 	width: 170px;
 	height: 40px;
-	background: url(../images/img-sprite.png)no-repeat -5px -168px;
+	background: url(../images/img-sprite.png)no-repeat  -5px -168px;
 	display: inline-block;
 }
 .medi{
@@ -472,6 +472,7 @@ i.social{
 	font-weight: 400;
 	font-size: 1.2em;
 	text-align:center;
+
 }
 #portfoliolist .portfolio {
 	-webkit-box-sizing: border-box;
@@ -639,7 +640,7 @@ div#portfoliolist {
 .slider-info p{
 	font-size:1.2em;
 	font-weight:400;
-	color:#fff;
+	color:#000000;
 	margin:1em 0em;
 }
 .contact {
@@ -724,6 +725,10 @@ a.view:hover{
 }
 .footer ul{
 	padding:0;
+}
+.iInsta{
+	
+
 }
 i.fb{
 	width: 40px;
@@ -1376,4 +1381,11 @@ a.boxclose {
 #loginForm {
 	width: 273px;
 }
+}
+.fab {
+	color: #fff;
+	padding-left: 3rem;
+}
+.bio{
+	color:;
 }

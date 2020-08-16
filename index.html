@@ -19,6 +19,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <script type='text/javascript' src="js/jquery-1.11.1.min.js"></script>
 <script src="js/menu_jquery.js"></script>
  <link rel="stylesheet" href="css/swipebox.css">
+ <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
  <!------ Light Box ------>
     <script src="js/jquery.swipebox.min.js"></script> 
     <script type="text/javascript">
@@ -56,48 +58,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="banner">
 		<div class="container">
 			<div class="header">
-				<div class="menu">												
-						<a href="#" class="right_bt" id="activator"><img src="images/menu.png" alt=""/></a>
-							<div class="box" id="box">
-								<div class="box_content">
-								   <div class="menu_box_list">
-									   <ul>
-										   <li class="active"><a href="#home" class="scroll">home</a></li>
-											<li><a href="#about" class="scroll">About us</a></li>
-											<li><a href="#services" class="scroll">Services</a></li>
-											<li><a href="#portfolio" class="scroll">portfolio</a></li>
-											<li><a href="#contact-us" class="scroll">contact </a></li>
-												<div class="clearfix"></div>
-										</ul>
-									</div>
-									<a class="boxclose" id="boxclose"><img src="images/close.png" alt=""/></a>
-								</div>                
-							</div>
-							<script type="text/javascript" src="js/easing.js"></script>
-								 <script type="text/javascript">
-										var $ = jQuery.noConflict();
-											$(function() {
-												$('#activator').click(function(){
-														$('#box').animate({'top':'0px'},500);
-												});
-												$('#boxclose').click(function(){
-														$('#box').animate({'top':'-700px'},500);
-												});
-											});
-											$(document).ready(function(){
-											
-											//Hide (Collapse) the toggle containers on load
-											$(".toggle_container").hide(); 
-											
-											//Switch the "Open" and "Close" state per click then slide up/down (depending on open/close state)
-											$(".trigger").click(function(){
-												$(this).toggleClass("active").next().slideToggle("slow");
-												return false; //Prevent the browser jump to the link anchor
-											});
-											
-											});
-										</script>
-				</div> 
 				<div class="messg">
 					<a href="mailto:justinjthyparampil@gmail.com"><i class="msg"></i></a>	    
 				</div>
@@ -105,7 +65,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</div>
 				<div class="banner-info">
 					<h1>I Am <span>  Justin James</span></h1>
-					<p>Web Development - Web designing - App development - Entrepreneur</p>
+					<p>App Development - Web Development - Web Designing - Entrepreneur</p>
 					<a class="learn" href="#home">Learn More</a>
 				</div>
 		</div>
@@ -117,7 +77,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="col-md-3 mobi">
 				<i class="mobile"> </i>
 				<label> </label>
-				<h4>Web Design</h4>
+				<h4>App Development</h4>
 			</div>
 			<div class="col-md-3 devic">
 				<i class="device"> </i>
@@ -127,7 +87,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="col-md-3 rock-1">
 				<i class="rocket"> </i>
 				<label> </label>
-				<h4>App Development</h4>
+				<h4>Web Designing</h4>
 			</div>
 			<div class="col-md-3 appl">
 				<i class="apple"> </i>
@@ -140,7 +100,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="container">
 				<div class="col-md-6 dsg-1">
 					<h3>Initech</h3>
-					<p>orem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquipex ea commodo consequat.</p>
+					<p>orem ipsum dolor sit amet, consectetuer adipiscing elit, Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+						The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquipex ea commodo consequat.</p>
 					<a class="more" href="#">Know More</a>
 				</div>
 				<div class="col-md-6 dsg-2">
@@ -153,170 +115,64 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	  <!-- about-me -->
 	<div class="about-me" id="about">
 		<div class="container">
-			<h2>Who<span> am I</span></h2>
+			<h2>Little Bit About<span> Me</span></h2>
 			<i class="acent"></i>
-			<p>orem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat v lutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquipex ea commodo consequat. adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquipex ea commodo consequa.</p>
-			<p>Euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquipex ea commodo consequat.sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquipex ea commodo consequa.</p>
+			<p><span class="bio">Myself Justin James. Life is all about finding the right way and waiting for the right time and here my journey begins...I completed my degree in finance and taxation from mg university. I joined SBI cards as marketing assistance even though I had no interest. Those days were not easy but it was my period of realization. I came to know that this is not my place and this is not the way how I want to live, but I need a high-income job. 
+				Tech field was my door to the right way and here I am. Now I m a co-founder of initech company and doing freelance work as a web developer. Our company mainly focuses on Web designing, Web Development, Software designing, software development, App designing, app development... <br> we give wings to your business you decide where to fly .</span></p>
 				<div class="col-md-6 medi">
-					<h5>Social Media Accounts</h5>
+					<h5>Catch<span> Me</span> at</h5>
 				</div>
 				<div class="col-md-6 soci">
-					<a href="#"><i class="social"></i></a>
+					<a href="https://www.instagram.com/anonymous_biker6953/?hl=en"><i class="fab fa-instagram fa-2x"></i></a>
+					<a href="https://github.com/Justinjames6953"><i class="fab fa-github fa-2x"></i></a>
+					<a href="https://www.linkedin.com/in/justin-james-9096751b4/"><i class="fab fa-linkedin fa-2x"></i></a>
+					<a href="mailto:justinjthyparampil@gmail.com"><i class="fab fa-google fa-2x"></i></a>
 				</div>
 					<div class="clearfix"></div>
-		</div>			
+		       </div>			
 				<div class="location">
 					<div class="container">
 						<div class="col-md-6 igb">
-							<h6>LOCATION:<span>Igbalangao, Bugasong, Antique, PH, 5704</span></h6>
+							<h6>LOCATION<span><br> India, Kerala, Kottayam, Pampady-686502</span></h6>
 						</div>
 						<div class="col-md-3 pon">
-							<h6>PHONE:<span>(123)456-7890<span></h6>
+							<h6>PHONE<span><br>8111839854<span></h6>
 						</div>
 						<div class="col-md-3">
-							<h6>EMAIL:<a href="#"> name@example.com</a></h6>
+							<h6>EMAIL<a href="mailto:justinjthyparampil@gmail.com"><br>justinjthyparampil@gmail.com</a></h6>
 						</div>
 							<div class="clearfix"></div>
-					</div>
-				</div>
-	</div>
-	<!-- about-me -->
-	<!-- portfolio-section -->
-	 <div class="portfolio"  id="portfolio">
-		<div class="container">
-			<h2>Recent <span>Works</span></h2>
-			<i class="accent"></i>
-			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-		</div>
-			<ul id="filters" class="clearfix">
-				<li><span class="filter active" data-filter="app card icon logos web">All</span></li>
-				<li><span class="filter" data-filter="app">Branding</span></li>
-				<li><span class="filter" data-filter="card">illustrations</span></li>
-				<li><span class="filter" data-filter="icon">web Design</span></li>
-			</ul>
-				<div id="portfoliolist">
-					<div class="portfolio card mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="card" style="display: inline-block; opacity: 1;">
-						<div class="portfolio-wrapper grid_box">		
-							 <a href="images/bc2.jpg" class="swipebox"  title="Image Title"> <img src="images/bc2.jpg" class="img-responsive" alt=""><span class="zoom-icon"></span> </a>
-		                </div>
-					</div>				
-					<div class="portfolio app mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="app" style="display: inline-block; opacity: 1;">
-						<div class="portfolio-wrapper grid_box">		
-							 <a href="images/food.jpg" class="swipebox"  title="Image Title"> <img src="images/food.jpg" class="img-responsive" alt=""><span class="zoom-icon"></span> </a>
-		                </div>
-					</div>					
-					<div class="portfolio icon mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="icon" style="display: inline-block; opacity: 1;">
-						<div class="portfolio-wrapper grid_box">		
-							 <a href="images/brand.jpg" class="swipebox"  title="Image Title"> <img src="images/brand.jpg" class="img-responsive" alt=""><span class="zoom-icon"></span> </a>
-		                </div>
-					</div>
-					<div class="portfolio app mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="app" style="display: inline-block; opacity: 1;">
-						<div class="portfolio-wrapper grid_box">		
-							 <a href="images/pho.jpg" class="swipebox"  title="Image Title"> <img src="images/pho.jpg" class="img-responsive" alt=""><span class="zoom-icon"></span> </a>
-		                </div>
-					</div>			
-					<div class="portfolio card mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="card" style="display: inline-block; opacity: 1;">
-						<div class="portfolio-wrapper grid_box">		
-							 <a href="images/sign.jpg" class="swipebox"  title="Image Title"> <img src="images/sign.jpg" class="img-responsive" alt=""><span class="zoom-icon"></span> </a>
-		                </div>
-					</div>	
-					<div class="portfolio card mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="card" style="display: inline-block; opacity: 1;">
-						<div class="portfolio-wrapper grid_box">		
-							 <a href="images/bcard.jpg" class="swipebox"  title="Image Title"> <img src="images/bcard.jpg" class="img-responsive" alt=""><span class="zoom-icon"></span> </a>
-		                </div>
-					</div>	
-					<div class="portfolio icon mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="icon" style="display: inline-block; opacity: 1;">
-						<div class="portfolio-wrapper grid_box">		
-							 <a href="images/pp.jpg" class="swipebox"  title="Image Title"> <img src="images/pp.jpg" class="img-responsive" alt=""><span class="zoom-icon"></span> </a>
-		                </div>
-						</div>
-						<div class="portfolio logos mix_all wow bounceIn" data-wow-delay="0.4s" data-cat="logos" style="display: inline-block; opacity: 1;">
-						<div class="portfolio-wrapper grid_box">		
-							 <a href="images/diamond.jpg" class="swipebox"  title="Image Title"> <img src="images/diamond.jpg" class="img-responsive" alt=""><span class="zoom-icon"></span> </a>
-		                </div>
-					</div>
-					<div class="clearfix"></div>					
-				</div>
-					<div class="clearfix"></div>
-    </div>
-	  <!-- Script for gallery Here -->
-				<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
-					<script type="text/javascript">
-					$(function () {
-						
-						var filterList = {
-						
-							init: function () {
-							
-								// MixItUp plugin
-								// http://mixitup.io
-								$('#portfoliolist').mixitup({
-									targetSelector: '.portfolio',
-									filterSelector: '.filter',
-									effects: ['fade'],
-									easing: 'snap',
-									// call the hover effect
-									onMixEnd: filterList.hoverEffect()
-								});				
-							
-							},
-							
-							hoverEffect: function () {
-							
-								// Simple parallax effect
-								$('#portfoliolist .portfolio').hover(
-									function () {
-										$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
-										$(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');				
-									},
-									function () {
-										$(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
-										$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');								
-									}		
-								);				
-							
-							}
-				
-						};
-						
-						// Run the show!
-						filterList.init();
-						
-						
-					});	
-					</script>
-<!-- portfolio-section  -->
-<!-- slider -->
-<div class="dan" id="services">
-<section class="slider">
+					    </div>
+				    </div>
+         <section class="slider">
 						<div class="flexslider">
 							<ul class="slides">
 								<li>
 									<div class="slider-info">
-										<img src="images/man.jpg"  alt="">
-										<h6> Dan Cederholm</h6>
-										<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+										<img src="images/Steve.jpg"  alt="">
+										<h6> Steve Jobs</h6>
+										<p>The moment You realize that everything in the world around You was build by people who where no smarter than You, You become an element of change yourself... You can change anything.</p>
 									</div>
 								</li>
 								<li>
 									<div class="slider-info">
-										<img src="images/man.jpg"  alt="">
-										<h6> Dan Cederholm</h6>
-										<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+										<img src="images/Trump.jpg"  alt="">
+										<h6> Donald Trump</h6>
+										<p>Money was never a big motivation for me, except as a way to keep score. The real excitement is playing the game.</p>
 									</div>
 								</li>
 								<li>	
 									<div class="slider-info">
-										<img src="images/man.jpg"  alt="">
-										<h6> Dan Cederholm</h6>
-										<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+										<img src="images/Warren.jpg"  alt="">
+										<h6> Warren Buffett</h6>
+										<p>If you don't find a way to make money while you sleep you will work untill you die.</p>
 									</div>
 								</li>
 								<li>	
 									<div class="slider-info">
-										<img src="images/man.jpg"  alt="">
-										<h6> Dan Cederholm</h6>
-										<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+										<img src="images/Bill.jpg"  alt="">
+										<h6> Bill Gates</h6>
+										<p>I choose a lazy person to do a hard job, because a lazy person will find an easy way to do it.</p>
 									</div>
 								</li>
 							</ul>
@@ -345,47 +201,43 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="contact" id="contact-us">
 		<div class="container">
 		<h3><span>Contact</span>me</h3>
-		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </p>
+		<p>Let's work together to create a game-changing experience that will take your brand from bland to <span>Buzzworthy!</span></p>
+		<form action="https://script.google.com/macros/s/AKfycbz85W0ozvU-1I8EM9LcWrcV07vfXgkFM1Fl0Gsdpw/exec" method="POST" class="gform">
 			<div class="col-md-6">
-					<form>
-						<input type="text" class="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
-						<input type="text" class="text" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}">
-						<input type="text" class="text" value="Subject" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Subject';}">
-					</form>
+				<input type="text" class="margin-right" Name="Name" placeholder="NAME" required="">
+					<input type="text" Name="Email" placeholder="EMAIL" required="">
+					<input type="text" class="margin-right" Name="Phone Number" placeholder="PHONE NUMBER" required="">
+					<input type="text" Name="Place" placeholder="PLACE" required="">
 			</div>
 			<div class="col-md-6">
-					<form>
-						<textarea value="Message:" onfocus="if(this.value == 'Message') this.value='';" onblur="if(this.value == '') this.value='MESSAGE';">Message</textarea>
-					</form>
+				<textarea name="Message" placeholder="PROJECT DETAILS" required=""></textarea>
 			</div>
-				<div class="clearfix"></div>
-			<div class="button-1">
-						<a class="view" href="#">SUBMIT<i class="rock"></i></a>
+			<div class="send-button agileits w3layouts">
+				<button class="btn btn-primary" onclick="disply()">SEND MESSAGE<span class="fa fa-long-arrow-right" aria-hidden="true"></span></button>
+			</div>
+			</form>
 		</div>
 	</div>
-	<!-- contact -->
 	<div class="map">
 		<div class="container">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d403200.04170320276!2d145.07961605!3d-37.86028279999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad646b5d2ba4df7%3A0x4045675218ccd90!2sMelbourne+VIC%2C+Australia!5e0!3m2!1sen!2sin!4v1417257392681" width="" height="" frameborder="0" style="border:0"></iframe>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62944.119460596885!2d76.48557309806033!3d9.594624041163053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b062ba16c6b435f%3A0xbe2b02f68f8dd06e!2sKottayam%2C%20Kerala!5e0!3m2!1sen!2sin!4v1597417205009!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 		</div>
 	</div>
 	<!-- footer -->
 	<div class="footer">
 		<div class="container">
 			<ul>
-				<li><a href="#"><i class="fb"></i></a></li>
-				<li><a href="#"><i class="cam"></i></a></li>
-				<li><a href="#"><i class="beh"></i></a></li>
-				<li><a href="#"><i class="goog"></i></a></li>
-				<li><a href="#"><i class="twt"></i></a></li>
-				<li><a href="#"><i class="drib"></i></a></li>
+				<a href="https://www.instagram.com/anonymous_biker6953/?hl=en"><i class="fab fa-instagram fa-2x"></i></a>
+				<a href="https://github.com/Justinjames6953"><i class="fab fa-github fa-2x"></i></a>
+				<a href="https://www.linkedin.com/in/justin-james-9096751b4/"><i class="fab fa-linkedin fa-2x"></i></a>
+				<a href="mailto:justinjthyparampil@gmail.com"><i class="fab fa-google fa-2x"></i></a>
 			</ul>
 		</div>
 	</div>
 	<!-- footer -->
 	<div class="footer-bottom">
 		<div class="container">
-			<p>Template by <a href="http://w3layouts.com" target="_blank"> w3layouts</a></p>
+			<p>©<a href="" target="_blank">IniTech</a></p>
 		</div>
 	</div>	
 	<a href="#to-top" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
